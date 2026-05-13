@@ -236,4 +236,8 @@ tests/CMakeFiles/unit_tests.dir/test_JobRepository.cpp.obj: \
  C:/Users/Mash/Desktop/PKS/BackupSystem/include/domain/Schedule.h \
  C:/Users/Mash/Desktop/PKS/BackupSystem/include/domain/RetentionPolicy.h \
  C:/Users/Mash/Desktop/PKS/BackupSystem/include/domain/RestorePoint.h \
- C:/Users/Mash/Desktop/PKS/BackupSystem/include/domain/BackupType.h
+ C:/Users/Mash/Desktop/PKS/BackupSystem/include/domain/BackupType.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc

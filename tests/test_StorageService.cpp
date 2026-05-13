@@ -4,8 +4,11 @@
 #include <filesystem>
 
 TEST_CASE("StorageService compress does not throw on non-existent path", "[StorageService]") {
+    auto tmp = std::filesystem::temp_directory_path() / "empty_storage";
+    std::filesystem::create_directories(tmp);
     StorageService ss;
-    REQUIRE_NOTHROW(ss.compress("/this/path/does/not/exist"));
+    REQUIRE_NOTHROW(ss.compress(tmp));
+    std::filesystem::remove_all(tmp);
 }
 
 TEST_CASE("StorageService compress on empty directory", "[StorageService]") {

@@ -10,6 +10,14 @@ C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios_autogen/timest
  C:/Users/Mash/Desktop/PKS/BackupSystem/build/_deps/catch2-src/extras/Catch.cmake
  C:/Users/Mash/Desktop/PKS/BackupSystem/tests/CMakeLists.txt
  C:/Users/Mash/Desktop/PKS/BackupSystem/tests/test_scenarios.cpp
+ C:/Qt/Tools/CMake_64/bin/cmake.exe
+ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CTest.cmake
+ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CTestTargets.cmake
+ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CTestUseLaunchers.cmake
+ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/DartConfiguration.tcl.in
+ C:/Users/Mash/Desktop/PKS/BackupSystem/build/_deps/catch2-src/extras/Catch.cmake
+ C:/Users/Mash/Desktop/PKS/BackupSystem/tests/CMakeLists.txt
+ C:/Users/Mash/Desktop/PKS/BackupSystem/tests/test_scenarios.cpp
 
 tests/CMakeFiles/test_scenarios.dir/test_scenarios.cpp.obj
  C:/Users/Mash/Desktop/PKS/BackupSystem/tests/test_scenarios.cpp

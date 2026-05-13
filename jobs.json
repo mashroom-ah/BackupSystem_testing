@@ -1,0 +1,17 @@
+[
+    {
+        "enabled": false,
+        "fileHashes": {
+        },
+        "id": "f5",
+        "interval": 0,
+        "lastRun": 1778696537,
+        "maxDays": 0,
+        "maxSize": 0,
+        "name": "test",
+        "restorePoints": [
+        ],
+        "source": "C:\\Users\\Mash\\AppData\\Local\\Temp\\facade_src5",
+        "target": "C:\\Users\\Mash\\AppData\\Local\\Temp\\facade_dst5"
+    }
+]

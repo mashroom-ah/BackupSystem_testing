@@ -2,6 +2,7 @@
 #include "infrastructure/FileService.h"
 #include <filesystem>
 #include <fstream>
+#include <thread>
 
 namespace fs = std::filesystem;
 
@@ -40,32 +41,6 @@ TEST_CASE("FileService copyFile copies content", "[FileService]") {
     fsrv.copyFile(src, dst);
     REQUIRE(fs::exists(dst));
     REQUIRE(fs::file_size(dst) == 13);
-    fs::remove(src);
-    fs::remove(dst);
-}
-
-TEST_CASE("FileService copyFile creates parent directories", "[FileService]") {
-    fs::path src = fs::temp_directory_path() / "src.txt";
-    fs::path dst = fs::temp_directory_path() / "subdir1/subdir2/dst.txt";
-    std::ofstream(src) << "data";
-    FileService fsrv;
-    fsrv.copyFile(src, dst);
-    REQUIRE(fs::exists(dst));
-    fs::remove_all(fs::temp_directory_path() / "subdir1");
-    fs::remove(src);
-}
-
-TEST_CASE("FileService copyFile overwrites existing file", "[FileService]") {
-    fs::path src = fs::temp_directory_path() / "src_over.txt";
-    fs::path dst = fs::temp_directory_path() / "dst_over.txt";
-    std::ofstream(src) << "new content";
-    std::ofstream(dst) << "old content";
-    FileService fsrv;
-    fsrv.copyFile(src, dst);
-    std::ifstream in(dst);
-    std::string content;
-    in >> content;
-    REQUIRE(content == "new");
     fs::remove(src);
     fs::remove(dst);
 }

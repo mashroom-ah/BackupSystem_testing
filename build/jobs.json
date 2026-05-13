@@ -5,13 +5,13 @@
         },
         "id": "f5",
         "interval": 0,
-        "lastRun": 1778693730,
+        "lastRun": 1778695348,
         "maxDays": 0,
         "maxSize": 0,
         "name": "test",
         "restorePoints": [
         ],
-        "source": "/s",
-        "target": "/d"
+        "source": "C:\\Users\\Mash\\AppData\\Local\\Temp\\facade_src5",
+        "target": "C:\\Users\\Mash\\AppData\\Local\\Temp\\facade_dst5"
     }
 ]

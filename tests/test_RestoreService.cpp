@@ -3,6 +3,8 @@
 #include "application/BackupService.h"
 #include <fstream>
 #include <filesystem>
+#include <thread>
+#include <chrono>
 
 TEST_CASE("RestoreService restores a full backup point", "[RestoreService]") {
     auto src = std::filesystem::temp_directory_path() / "rest_src";
@@ -20,8 +22,10 @@ TEST_CASE("RestoreService restores a full backup point", "[RestoreService]") {
     REQUIRE(std::filesystem::exists(restoredDir + "/file.txt"));
     std::ifstream in(restoredDir + "/file.txt");
     std::string content;
-    in >> content;
+    std::getline(in, content);
     REQUIRE(content == "restore me");
+    in.close();
+    std::this_thread::sleep_for(std::chrono::milliseconds(100));
     std::filesystem::remove_all(src);
     std::filesystem::remove_all(dst);
     std::filesystem::remove_all(restoredDir);
@@ -53,8 +57,10 @@ TEST_CASE("RestoreService restores from incremental point", "[RestoreService]") 
     REQUIRE(std::filesystem::exists(restoredDir + "/f.txt"));
     std::ifstream in(restoredDir + "/f.txt");
     std::string content;
-    in >> content;
+    std::getline(in, content);
     REQUIRE(content == "v2");
+    in.close();
+    std::this_thread::sleep_for(std::chrono::milliseconds(100));
     std::filesystem::remove_all(src);
     std::filesystem::remove_all(dst);
     std::filesystem::remove_all(restoredDir);

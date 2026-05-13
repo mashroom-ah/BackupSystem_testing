@@ -1,6 +1,7 @@
 #include <catch2/catch_test_macros.hpp>
 #include "infrastructure/JobRepository.h"
 #include <filesystem>
+#include <fstream>
 
 TEST_CASE("JobRepository save and load empty", "[JobRepository]") {
     auto tmp = std::filesystem::temp_directory_path() / "empty_repo.json";
@@ -39,13 +40,16 @@ TEST_CASE("JobRepository persists restore points", "[JobRepository]") {
     Schedule s; RetentionPolicy r;
     BackupJob job("id", "name", "/src", "/dst", s, r);
     auto now = std::chrono::system_clock::now();
-    RestorePoint p("p1", "/backup/path", now, BackupType::FULL);
+    auto pointPath = std::filesystem::temp_directory_path() / "rp_file";
+    std::ofstream(pointPath) << "dummy";
+    RestorePoint p("p1", pointPath, now, BackupType::FULL);
     job.addRestorePoint(p);
     repo.save({job});
     auto loaded = repo.load();
     REQUIRE(loaded[0].getRestorePoints().size() == 1);
     REQUIRE(loaded[0].getRestorePoints()[0].getId() == "p1");
     std::filesystem::remove(tmp);
+    std::filesystem::remove(pointPath);
 }
 
 TEST_CASE("JobRepository persists file hashes", "[JobRepository]") {

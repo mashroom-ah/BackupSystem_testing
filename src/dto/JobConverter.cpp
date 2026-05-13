@@ -6,7 +6,7 @@ BackupJob JobConverter::fromDTO(const BackupJobDTO& dto) {
         dto.name,
         dto.source,
         dto.target,
-        Schedule(),
+        Schedule(0, dto.enabled),   // <-- важно: enabled передаётся в Schedule
         RetentionPolicy()
         );
 }
