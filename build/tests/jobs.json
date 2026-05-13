@@ -2,26 +2,19 @@
     {
         "enabled": true,
         "fileHashes": {
-            "C:\\Users\\Mash\\AppData\\Local\\Temp\\locked_src\\locked.txt": "0"
         },
         "id": "lock1",
         "interval": 0,
-        "lastRun": 1778697151,
+        "lastRun": 1778697807,
         "maxDays": 0,
         "maxSize": 0,
         "name": "lock_test",
         "restorePoints": [
             {
-                "id": "lock1_20260513_213231_FULL",
-                "path": "C:\\Users\\Mash\\AppData\\Local\\Temp\\locked_dst\\lock1_20260513_213231_FULL",
-                "timestamp": 1778697151,
+                "id": "lock1_20260513_214327_FULL",
+                "path": "C:\\Users\\Mash\\AppData\\Local\\Temp\\locked_dst\\lock1_20260513_214327_FULL",
+                "timestamp": 1778697807,
                 "type": 0
-            },
-            {
-                "id": "lock1_20260513_213231_INC",
-                "path": "C:\\Users\\Mash\\AppData\\Local\\Temp\\locked_dst\\lock1_20260513_213231_INC",
-                "timestamp": 1778697151,
-                "type": 1
             }
         ],
         "source": "C:\\Users\\Mash\\AppData\\Local\\Temp\\locked_src",

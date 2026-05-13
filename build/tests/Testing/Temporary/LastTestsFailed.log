@@ -1,4 +1,1 @@
-106:Scenario: Scheduled backup respects interval
 107:Scenario: Full and incremental backup with restore from latest
-108:Scenario: Retention policy by max size
-109:Scenario: Retention policy by max days

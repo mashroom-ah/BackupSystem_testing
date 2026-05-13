@@ -1,22 +1,22 @@
-Start testing: May 13 21:32 RTZ 2 (зима)
+Start testing: May 13 21:43 RTZ 2 (зима)
 ----------------------------------------------------------
 1/110 Testing: StorageService compress does not throw on non-existent path
 1/110 Test: StorageService compress does not throw on non-existent path
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "StorageService compress does not throw on non-existent path"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"StorageService compress does not throw on non-existent path" start time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress does not throw on non-existent path" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "StorageService compress does not throw on non-existent path"
-Randomness seeded to: 702070480
+Randomness seeded to: 1342245879
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.04 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageService compress does not throw on non-existent path" end time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress does not throw on non-existent path" end time: May 13 21:43 RTZ 2 (зима)
 "StorageService compress does not throw on non-existent path" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -24,11 +24,11 @@ Test Passed.
 2/110 Test: StorageService compress on empty directory
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "StorageService compress on empty directory"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"StorageService compress on empty directory" start time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on empty directory" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "StorageService compress on empty directory"
-Randomness seeded to: 901126051
+Randomness seeded to: 2882437511
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -36,7 +36,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageService compress on empty directory" end time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on empty directory" end time: May 13 21:43 RTZ 2 (зима)
 "StorageService compress on empty directory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -44,11 +44,11 @@ Test Passed.
 3/110 Test: StorageService compress on directory with files
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "StorageService compress on directory with files"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"StorageService compress on directory with files" start time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on directory with files" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "StorageService compress on directory with files"
-Randomness seeded to: 3275129478
+Randomness seeded to: 3081439084
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -56,7 +56,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageService compress on directory with files" end time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on directory with files" end time: May 13 21:43 RTZ 2 (зима)
 "StorageService compress on directory with files" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,19 +64,19 @@ Test Passed.
 4/110 Test: StorageService compress on subdirectory
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "StorageService compress on subdirectory"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"StorageService compress on subdirectory" start time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on subdirectory" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "StorageService compress on subdirectory"
-Randomness seeded to: 4012908203
+Randomness seeded to: 801512800
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageService compress on subdirectory" end time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on subdirectory" end time: May 13 21:43 RTZ 2 (зима)
 "StorageService compress on subdirectory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -84,11 +84,11 @@ Test Passed.
 5/110 Test: StorageService compress on empty file
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "StorageService compress on empty file"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"StorageService compress on empty file" start time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on empty file" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "StorageService compress on empty file"
-Randomness seeded to: 3320496988
+Randomness seeded to: 2403255469
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -96,7 +96,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageService compress on empty file" end time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on empty file" end time: May 13 21:43 RTZ 2 (зима)
 "StorageService compress on empty file" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -104,19 +104,19 @@ Test Passed.
 6/110 Test: StorageService compress on large file (no crash)
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "StorageService compress on large file (no crash)"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"StorageService compress on large file (no crash)" start time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on large file (no crash)" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "StorageService compress on large file (no crash)"
-Randomness seeded to: 578676393
+Randomness seeded to: 3374714390
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.04 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageService compress on large file (no crash)" end time: May 13 21:32 RTZ 2 (зима)
+"StorageService compress on large file (no crash)" end time: May 13 21:43 RTZ 2 (зима)
 "StorageService compress on large file (no crash)" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,21 +124,21 @@ Test Passed.
 7/110 Test: ApplicationFacade create and get jobs
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "ApplicationFacade create and get jobs"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"ApplicationFacade create and get jobs" start time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade create and get jobs" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Filters: "ApplicationFacade create and get jobs"
-Randomness seeded to: 1264856736
+Randomness seeded to: 794518251
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ApplicationFacade create and get jobs" end time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade create and get jobs" end time: May 13 21:43 RTZ 2 (зима)
 "ApplicationFacade create and get jobs" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -146,13 +146,13 @@ Test Passed.
 8/110 Test: ApplicationFacade updateJob
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "ApplicationFacade updateJob"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"ApplicationFacade updateJob" start time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade updateJob" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Filters: "ApplicationFacade updateJob"
-Randomness seeded to: 679158310
+Randomness seeded to: 327800070
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -160,7 +160,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"ApplicationFacade updateJob" end time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade updateJob" end time: May 13 21:43 RTZ 2 (зима)
 "ApplicationFacade updateJob" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -168,13 +168,13 @@ Test Passed.
 9/110 Test: ApplicationFacade deleteJob
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "ApplicationFacade deleteJob"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"ApplicationFacade deleteJob" start time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade deleteJob" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Saved 0 jobs to "jobs.json"
 Filters: "ApplicationFacade deleteJob"
-Randomness seeded to: 3198382279
+Randomness seeded to: 3196358039
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -182,7 +182,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"ApplicationFacade deleteJob" end time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade deleteJob" end time: May 13 21:43 RTZ 2 (зима)
 "ApplicationFacade deleteJob" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -190,12 +190,12 @@ Test Passed.
 10/110 Test: ApplicationFacade runBackup throws on disabled job
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "ApplicationFacade runBackup throws on disabled job"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"ApplicationFacade runBackup throws on disabled job" start time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade runBackup throws on disabled job" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Filters: "ApplicationFacade runBackup throws on disabled job"
-Randomness seeded to: 1148706687
+Randomness seeded to: 3872388736
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -203,7 +203,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"ApplicationFacade runBackup throws on disabled job" end time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade runBackup throws on disabled job" end time: May 13 21:43 RTZ 2 (зима)
 "ApplicationFacade runBackup throws on disabled job" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -211,11 +211,11 @@ Test Passed.
 11/110 Test: ApplicationFacade runBackup on non-existent job throws
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "ApplicationFacade runBackup on non-existent job throws"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"ApplicationFacade runBackup on non-existent job throws" start time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade runBackup on non-existent job throws" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "ApplicationFacade runBackup on non-existent job throws"
-Randomness seeded to: 561473402
+Randomness seeded to: 1362210590
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -223,7 +223,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ApplicationFacade runBackup on non-existent job throws" end time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade runBackup on non-existent job throws" end time: May 13 21:43 RTZ 2 (зима)
 "ApplicationFacade runBackup on non-existent job throws" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -231,20 +231,20 @@ Test Passed.
 12/110 Test: ApplicationFacade restore throws on invalid point
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "ApplicationFacade restore throws on invalid point"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"ApplicationFacade restore throws on invalid point" start time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade restore throws on invalid point" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Filters: "ApplicationFacade restore throws on invalid point"
-Randomness seeded to: 3402903023
+Randomness seeded to: 4006854261
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.04 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"ApplicationFacade restore throws on invalid point" end time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade restore throws on invalid point" end time: May 13 21:43 RTZ 2 (зима)
 "ApplicationFacade restore throws on invalid point" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -252,13 +252,13 @@ Test Passed.
 13/110 Test: ApplicationFacade loadJobs loads existing jobs.json
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "ApplicationFacade loadJobs loads existing jobs.json"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"ApplicationFacade loadJobs loads existing jobs.json" start time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade loadJobs loads existing jobs.json" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Loading 1 jobs from "jobs.json"
 Restored 0 file hashes for job "f5"
 Filters: "ApplicationFacade loadJobs loads existing jobs.json"
-Randomness seeded to: 594516615
+Randomness seeded to: 3884588774
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -266,7 +266,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ApplicationFacade loadJobs loads existing jobs.json" end time: May 13 21:32 RTZ 2 (зима)
+"ApplicationFacade loadJobs loads existing jobs.json" end time: May 13 21:43 RTZ 2 (зима)
 "ApplicationFacade loadJobs loads existing jobs.json" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,13 +274,13 @@ Test Passed.
 14/110 Test: JobRepository save and load empty
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobRepository save and load empty"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobRepository save and load empty" start time: May 13 21:32 RTZ 2 (зима)
+"JobRepository save and load empty" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 0 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\empty_repo.json"
 Loading 0 jobs from "C:\\Users\\Mash\\AppData\\Local\\Temp\\empty_repo.json"
 Filters: "JobRepository save and load empty"
-Randomness seeded to: 3662768247
+Randomness seeded to: 1936336192
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -288,7 +288,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"JobRepository save and load empty" end time: May 13 21:32 RTZ 2 (зима)
+"JobRepository save and load empty" end time: May 13 21:43 RTZ 2 (зима)
 "JobRepository save and load empty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -296,14 +296,14 @@ Test Passed.
 15/110 Test: JobRepository save and load one job
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobRepository save and load one job"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobRepository save and load one job" start time: May 13 21:32 RTZ 2 (зима)
+"JobRepository save and load one job" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\one_job.json"
 Loading 1 jobs from "C:\\Users\\Mash\\AppData\\Local\\Temp\\one_job.json"
 Restored 0 file hashes for job "id1"
 Filters: "JobRepository save and load one job"
-Randomness seeded to: 3834653940
+Randomness seeded to: 1399306188
 ===============================================================================
 All tests passed (7 assertions in 1 test case)
 
@@ -311,7 +311,7 @@ All tests passed (7 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"JobRepository save and load one job" end time: May 13 21:32 RTZ 2 (зима)
+"JobRepository save and load one job" end time: May 13 21:43 RTZ 2 (зима)
 "JobRepository save and load one job" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -319,14 +319,14 @@ Test Passed.
 16/110 Test: JobRepository persists restore points
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobRepository persists restore points"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobRepository persists restore points" start time: May 13 21:32 RTZ 2 (зима)
+"JobRepository persists restore points" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\with_points.json"
 Loading 1 jobs from "C:\\Users\\Mash\\AppData\\Local\\Temp\\with_points.json"
 Restored 0 file hashes for job "id"
 Filters: "JobRepository persists restore points"
-Randomness seeded to: 3217913200
+Randomness seeded to: 3134659124
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -334,7 +334,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"JobRepository persists restore points" end time: May 13 21:32 RTZ 2 (зима)
+"JobRepository persists restore points" end time: May 13 21:43 RTZ 2 (зима)
 "JobRepository persists restore points" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -342,14 +342,14 @@ Test Passed.
 17/110 Test: JobRepository persists file hashes
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobRepository persists file hashes"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobRepository persists file hashes" start time: May 13 21:32 RTZ 2 (зима)
+"JobRepository persists file hashes" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\hashes.json"
 Loading 1 jobs from "C:\\Users\\Mash\\AppData\\Local\\Temp\\hashes.json"
 Restored 1 file hashes for job "id"
 Filters: "JobRepository persists file hashes"
-Randomness seeded to: 48829603
+Randomness seeded to: 1156359592
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -357,7 +357,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"JobRepository persists file hashes" end time: May 13 21:32 RTZ 2 (зима)
+"JobRepository persists file hashes" end time: May 13 21:43 RTZ 2 (зима)
 "JobRepository persists file hashes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -365,7 +365,7 @@ Test Passed.
 18/110 Test: JobRepository loads only existing restore points
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobRepository loads only existing restore points"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobRepository loads only existing restore points" start time: May 13 21:32 RTZ 2 (зима)
+"JobRepository loads only existing restore points" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\missing_points.json"
@@ -373,15 +373,15 @@ Loading 1 jobs from "C:\\Users\\Mash\\AppData\\Local\\Temp\\missing_points.json"
 Warning: Restore point not found: "/non/existent/path"
 Restored 0 file hashes for job "id"
 Filters: "JobRepository loads only existing restore points"
-Randomness seeded to: 449224008
+Randomness seeded to: 3063600744
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.04 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"JobRepository loads only existing restore points" end time: May 13 21:32 RTZ 2 (зима)
+"JobRepository loads only existing restore points" end time: May 13 21:43 RTZ 2 (зима)
 "JobRepository loads only existing restore points" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -389,20 +389,20 @@ Test Passed.
 19/110 Test: JobService create and get jobs
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobService create and get jobs"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobService create and get jobs" start time: May 13 21:32 RTZ 2 (зима)
+"JobService create and get jobs" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\jobservice_test.json"
 Filters: "JobService create and get jobs"
-Randomness seeded to: 3287050433
+Randomness seeded to: 1950069148
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobService create and get jobs" end time: May 13 21:32 RTZ 2 (зима)
+"JobService create and get jobs" end time: May 13 21:43 RTZ 2 (зима)
 "JobService create and get jobs" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -410,13 +410,13 @@ Test Passed.
 20/110 Test: JobService updateJob
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobService updateJob"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobService updateJob" start time: May 13 21:32 RTZ 2 (зима)
+"JobService updateJob" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\update_test.json"
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\update_test.json"
 Filters: "JobService updateJob"
-Randomness seeded to: 699710195
+Randomness seeded to: 1500875916
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -424,7 +424,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobService updateJob" end time: May 13 21:32 RTZ 2 (зима)
+"JobService updateJob" end time: May 13 21:43 RTZ 2 (зима)
 "JobService updateJob" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -432,21 +432,21 @@ Test Passed.
 21/110 Test: JobService deleteJob
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobService deleteJob"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobService deleteJob" start time: May 13 21:32 RTZ 2 (зима)
+"JobService deleteJob" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\delete_test.json"
 Saved 0 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\delete_test.json"
 Filters: "JobService deleteJob"
-Randomness seeded to: 3711581115
+Randomness seeded to: 1803465224
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobService deleteJob" end time: May 13 21:32 RTZ 2 (зима)
+"JobService deleteJob" end time: May 13 21:43 RTZ 2 (зима)
 "JobService deleteJob" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -454,14 +454,14 @@ Test Passed.
 22/110 Test: JobService load from file
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobService load from file"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobService load from file" start time: May 13 21:32 RTZ 2 (зима)
+"JobService load from file" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\load_test.json"
 Loading 1 jobs from "C:\\Users\\Mash\\AppData\\Local\\Temp\\load_test.json"
 Restored 0 file hashes for job "id4"
 Filters: "JobService load from file"
-Randomness seeded to: 2828131156
+Randomness seeded to: 2567014325
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -469,7 +469,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"JobService load from file" end time: May 13 21:32 RTZ 2 (зима)
+"JobService load from file" end time: May 13 21:43 RTZ 2 (зима)
 "JobService load from file" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -477,7 +477,7 @@ Test Passed.
 23/110 Test: JobService create multiple jobs
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobService create multiple jobs"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobService create multiple jobs" start time: May 13 21:32 RTZ 2 (зима)
+"JobService create multiple jobs" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\multi.json"
@@ -486,15 +486,15 @@ Saved 3 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\multi.json"
 Saved 4 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\multi.json"
 Saved 5 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\multi.json"
 Filters: "JobService create multiple jobs"
-Randomness seeded to: 2371491737
+Randomness seeded to: 2258519810
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"JobService create multiple jobs" end time: May 13 21:32 RTZ 2 (зима)
+"JobService create multiple jobs" end time: May 13 21:43 RTZ 2 (зима)
 "JobService create multiple jobs" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -502,20 +502,20 @@ Test Passed.
 24/110 Test: JobService update non-existent job does nothing
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobService update non-existent job does nothing"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobService update non-existent job does nothing" start time: May 13 21:32 RTZ 2 (зима)
+"JobService update non-existent job does nothing" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 0 jobs to "C:\\Users\\Mash\\AppData\\Local\\Temp\\nonexistent_update.json"
 Filters: "JobService update non-existent job does nothing"
-Randomness seeded to: 302774416
+Randomness seeded to: 2226635364
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobService update non-existent job does nothing" end time: May 13 21:32 RTZ 2 (зима)
+"JobService update non-existent job does nothing" end time: May 13 21:43 RTZ 2 (зима)
 "JobService update non-existent job does nothing" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -523,19 +523,19 @@ Test Passed.
 25/110 Test: RestoreService restores a full backup point
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestoreService restores a full backup point"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestoreService restores a full backup point" start time: May 13 21:32 RTZ 2 (зима)
+"RestoreService restores a full backup point" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestoreService restores a full backup point"
-Randomness seeded to: 4216324046
+Randomness seeded to: 4218458067
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.14 sec
+Test time =   0.15 sec
 ----------------------------------------------------------
 Test Passed.
-"RestoreService restores a full backup point" end time: May 13 21:32 RTZ 2 (зима)
+"RestoreService restores a full backup point" end time: May 13 21:43 RTZ 2 (зима)
 "RestoreService restores a full backup point" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -543,19 +543,19 @@ Test Passed.
 26/110 Test: RestoreService throws if point not found
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestoreService throws if point not found"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestoreService throws if point not found" start time: May 13 21:32 RTZ 2 (зима)
+"RestoreService throws if point not found" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestoreService throws if point not found"
-Randomness seeded to: 243511529
+Randomness seeded to: 3100335869
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.04 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"RestoreService throws if point not found" end time: May 13 21:32 RTZ 2 (зима)
+"RestoreService throws if point not found" end time: May 13 21:43 RTZ 2 (зима)
 "RestoreService throws if point not found" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -563,19 +563,19 @@ Test Passed.
 27/110 Test: RestoreService restores from incremental point
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestoreService restores from incremental point"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestoreService restores from incremental point" start time: May 13 21:32 RTZ 2 (зима)
+"RestoreService restores from incremental point" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestoreService restores from incremental point"
-Randomness seeded to: 3321944532
+Randomness seeded to: 1079872411
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
 <end of output>
-Test time =   0.16 sec
+Test time =   0.15 sec
 ----------------------------------------------------------
 Test Passed.
-"RestoreService restores from incremental point" end time: May 13 21:32 RTZ 2 (зима)
+"RestoreService restores from incremental point" end time: May 13 21:43 RTZ 2 (зима)
 "RestoreService restores from incremental point" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -583,19 +583,19 @@ Test Passed.
 28/110 Test: RestoreService restores multiple files
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestoreService restores multiple files"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestoreService restores multiple files" start time: May 13 21:32 RTZ 2 (зима)
+"RestoreService restores multiple files" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestoreService restores multiple files"
-Randomness seeded to: 2899811716
+Randomness seeded to: 1847779133
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"RestoreService restores multiple files" end time: May 13 21:32 RTZ 2 (зима)
+"RestoreService restores multiple files" end time: May 13 21:43 RTZ 2 (зима)
 "RestoreService restores multiple files" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -603,11 +603,11 @@ Test Passed.
 29/110 Test: RestoreService creates restore directory
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestoreService creates restore directory"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestoreService creates restore directory" start time: May 13 21:32 RTZ 2 (зима)
+"RestoreService creates restore directory" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestoreService creates restore directory"
-Randomness seeded to: 1108814287
+Randomness seeded to: 2947534165
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -615,7 +615,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"RestoreService creates restore directory" end time: May 13 21:32 RTZ 2 (зима)
+"RestoreService creates restore directory" end time: May 13 21:43 RTZ 2 (зима)
 "RestoreService creates restore directory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -623,11 +623,11 @@ Test Passed.
 30/110 Test: BackupService first backup creates FULL point
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupService first backup creates FULL point"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupService first backup creates FULL point" start time: May 13 21:32 RTZ 2 (зима)
+"BackupService first backup creates FULL point" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupService first backup creates FULL point"
-Randomness seeded to: 1061667258
+Randomness seeded to: 2181262300
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -635,7 +635,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupService first backup creates FULL point" end time: May 13 21:32 RTZ 2 (зима)
+"BackupService first backup creates FULL point" end time: May 13 21:43 RTZ 2 (зима)
 "BackupService first backup creates FULL point" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -643,19 +643,19 @@ Test Passed.
 31/110 Test: BackupService incremental after file change
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupService incremental after file change"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupService incremental after file change" start time: May 13 21:32 RTZ 2 (зима)
+"BackupService incremental after file change" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupService incremental after file change"
-Randomness seeded to: 673056657
+Randomness seeded to: 4033577378
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupService incremental after file change" end time: May 13 21:32 RTZ 2 (зима)
+"BackupService incremental after file change" end time: May 13 21:43 RTZ 2 (зима)
 "BackupService incremental after file change" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -663,11 +663,11 @@ Test Passed.
 32/110 Test: BackupService no changes still creates a point (empty)
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupService no changes still creates a point (empty)"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupService no changes still creates a point (empty)" start time: May 13 21:32 RTZ 2 (зима)
+"BackupService no changes still creates a point (empty)" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupService no changes still creates a point (empty)"
-Randomness seeded to: 110553278
+Randomness seeded to: 3743913380
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -675,7 +675,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupService no changes still creates a point (empty)" end time: May 13 21:32 RTZ 2 (зима)
+"BackupService no changes still creates a point (empty)" end time: May 13 21:43 RTZ 2 (зима)
 "BackupService no changes still creates a point (empty)" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -683,19 +683,19 @@ Test Passed.
 33/110 Test: BackupService multiple files incremental
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupService multiple files incremental"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupService multiple files incremental" start time: May 13 21:32 RTZ 2 (зима)
+"BackupService multiple files incremental" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupService multiple files incremental"
-Randomness seeded to: 1670806141
+Randomness seeded to: 399845566
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupService multiple files incremental" end time: May 13 21:32 RTZ 2 (зима)
+"BackupService multiple files incremental" end time: May 13 21:43 RTZ 2 (зима)
 "BackupService multiple files incremental" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -703,11 +703,11 @@ Test Passed.
 34/110 Test: BackupService handles empty source directory
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupService handles empty source directory"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupService handles empty source directory" start time: May 13 21:32 RTZ 2 (зима)
+"BackupService handles empty source directory" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupService handles empty source directory"
-Randomness seeded to: 1178602911
+Randomness seeded to: 4073485603
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -715,7 +715,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupService handles empty source directory" end time: May 13 21:32 RTZ 2 (зима)
+"BackupService handles empty source directory" end time: May 13 21:43 RTZ 2 (зима)
 "BackupService handles empty source directory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -723,11 +723,11 @@ Test Passed.
 35/110 Test: RetentionService keeps at least minRestorePoints (default 3)
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionService keeps at least minRestorePoints (default 3)"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionService keeps at least minRestorePoints (default 3)" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionService keeps at least minRestorePoints (default 3)" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionService keeps at least minRestorePoints (default 3)"
-Randomness seeded to: 2785919835
+Randomness seeded to: 4209314606
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -735,7 +735,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionService keeps at least minRestorePoints (default 3)" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionService keeps at least minRestorePoints (default 3)" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionService keeps at least minRestorePoints (default 3)" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -743,11 +743,11 @@ Test Passed.
 36/110 Test: RetentionService respects custom minRestorePoints
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionService respects custom minRestorePoints"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionService respects custom minRestorePoints" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionService respects custom minRestorePoints" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionService respects custom minRestorePoints"
-Randomness seeded to: 660759134
+Randomness seeded to: 1571815950
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -755,7 +755,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionService respects custom minRestorePoints" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionService respects custom minRestorePoints" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionService respects custom minRestorePoints" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -763,11 +763,11 @@ Test Passed.
 37/110 Test: RetentionService removes points older than maxDays
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionService removes points older than maxDays"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionService removes points older than maxDays" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionService removes points older than maxDays" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionService removes points older than maxDays"
-Randomness seeded to: 3383386669
+Randomness seeded to: 64656295
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -775,7 +775,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionService removes points older than maxDays" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionService removes points older than maxDays" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionService removes points older than maxDays" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -783,11 +783,11 @@ Test Passed.
 38/110 Test: RetentionService respects maxStorageSize
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionService respects maxStorageSize"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionService respects maxStorageSize" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionService respects maxStorageSize" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionService respects maxStorageSize"
-Randomness seeded to: 2042120880
+Randomness seeded to: 3783122983
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -795,7 +795,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionService respects maxStorageSize" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionService respects maxStorageSize" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionService respects maxStorageSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -803,11 +803,11 @@ Test Passed.
 39/110 Test: RetentionService maxStorageSize does not remove below min points
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionService maxStorageSize does not remove below min points"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionService maxStorageSize does not remove below min points" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionService maxStorageSize does not remove below min points" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionService maxStorageSize does not remove below min points"
-Randomness seeded to: 52112571
+Randomness seeded to: 995409779
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -815,7 +815,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionService maxStorageSize does not remove below min points" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionService maxStorageSize does not remove below min points" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionService maxStorageSize does not remove below min points" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -823,11 +823,11 @@ Test Passed.
 40/110 Test: RetentionService combines maxDays and maxStorageSize
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionService combines maxDays and maxStorageSize"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionService combines maxDays and maxStorageSize" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionService combines maxDays and maxStorageSize" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionService combines maxDays and maxStorageSize"
-Randomness seeded to: 376072460
+Randomness seeded to: 696174281
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -835,7 +835,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionService combines maxDays and maxStorageSize" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionService combines maxDays and maxStorageSize" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionService combines maxDays and maxStorageSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -843,11 +843,11 @@ Test Passed.
 41/110 Test: RetentionService handles empty points list
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionService handles empty points list"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionService handles empty points list" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionService handles empty points list" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionService handles empty points list"
-Randomness seeded to: 1927096520
+Randomness seeded to: 2262252951
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -855,7 +855,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionService handles empty points list" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionService handles empty points list" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionService handles empty points list" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -863,19 +863,19 @@ Test Passed.
 42/110 Test: CompressionService compress single file
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "CompressionService compress single file"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"CompressionService compress single file" start time: May 13 21:32 RTZ 2 (зима)
+"CompressionService compress single file" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "CompressionService compress single file"
-Randomness seeded to: 1867897519
+Randomness seeded to: 2972672644
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.53 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"CompressionService compress single file" end time: May 13 21:32 RTZ 2 (зима)
+"CompressionService compress single file" end time: May 13 21:43 RTZ 2 (зима)
 "CompressionService compress single file" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -883,11 +883,11 @@ Test Passed.
 43/110 Test: CompressionService compress multiple files
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "CompressionService compress multiple files"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"CompressionService compress multiple files" start time: May 13 21:32 RTZ 2 (зима)
+"CompressionService compress multiple files" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "CompressionService compress multiple files"
-Randomness seeded to: 362655610
+Randomness seeded to: 309293346
 ===============================================================================
 All tests passed (4 assertions in 1 test case)
 
@@ -895,7 +895,7 @@ All tests passed (4 assertions in 1 test case)
 Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"CompressionService compress multiple files" end time: May 13 21:32 RTZ 2 (зима)
+"CompressionService compress multiple files" end time: May 13 21:43 RTZ 2 (зима)
 "CompressionService compress multiple files" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -903,11 +903,11 @@ Test Passed.
 44/110 Test: CompressionService compress subdirectories
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "CompressionService compress subdirectories"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"CompressionService compress subdirectories" start time: May 13 21:32 RTZ 2 (зима)
+"CompressionService compress subdirectories" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "CompressionService compress subdirectories"
-Randomness seeded to: 3277119213
+Randomness seeded to: 3084590970
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -915,7 +915,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"CompressionService compress subdirectories" end time: May 13 21:32 RTZ 2 (зима)
+"CompressionService compress subdirectories" end time: May 13 21:43 RTZ 2 (зима)
 "CompressionService compress subdirectories" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -923,19 +923,19 @@ Test Passed.
 45/110 Test: CompressionService decompress restores original
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "CompressionService decompress restores original"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"CompressionService decompress restores original" start time: May 13 21:32 RTZ 2 (зима)
+"CompressionService decompress restores original" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "CompressionService decompress restores original"
-Randomness seeded to: 281668254
+Randomness seeded to: 3897291374
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   1.05 sec
+Test time =   1.07 sec
 ----------------------------------------------------------
 Test Passed.
-"CompressionService decompress restores original" end time: May 13 21:32 RTZ 2 (зима)
+"CompressionService decompress restores original" end time: May 13 21:43 RTZ 2 (зима)
 "CompressionService decompress restores original" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -943,19 +943,19 @@ Test Passed.
 46/110 Test: CompressionService decompress with multiple files
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "CompressionService decompress with multiple files"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"CompressionService decompress with multiple files" start time: May 13 21:32 RTZ 2 (зима)
+"CompressionService decompress with multiple files" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "CompressionService decompress with multiple files"
-Randomness seeded to: 2443098685
+Randomness seeded to: 3753929038
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   1.05 sec
+Test time =   1.06 sec
 ----------------------------------------------------------
 Test Passed.
-"CompressionService decompress with multiple files" end time: May 13 21:32 RTZ 2 (зима)
+"CompressionService decompress with multiple files" end time: May 13 21:43 RTZ 2 (зима)
 "CompressionService decompress with multiple files" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -963,11 +963,11 @@ Test Passed.
 47/110 Test: DiffService with empty hashes marks all as changed
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "DiffService with empty hashes marks all as changed"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"DiffService with empty hashes marks all as changed" start time: May 13 21:32 RTZ 2 (зима)
+"DiffService with empty hashes marks all as changed" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "DiffService with empty hashes marks all as changed"
-Randomness seeded to: 2942260850
+Randomness seeded to: 4227623562
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -975,7 +975,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"DiffService with empty hashes marks all as changed" end time: May 13 21:32 RTZ 2 (зима)
+"DiffService with empty hashes marks all as changed" end time: May 13 21:43 RTZ 2 (зима)
 "DiffService with empty hashes marks all as changed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -983,11 +983,11 @@ Test Passed.
 48/110 Test: DiffService with matching hashes marks none changed
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "DiffService with matching hashes marks none changed"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"DiffService with matching hashes marks none changed" start time: May 13 21:32 RTZ 2 (зима)
+"DiffService with matching hashes marks none changed" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "DiffService with matching hashes marks none changed"
-Randomness seeded to: 2251588037
+Randomness seeded to: 2790670388
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -995,7 +995,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"DiffService with matching hashes marks none changed" end time: May 13 21:32 RTZ 2 (зима)
+"DiffService with matching hashes marks none changed" end time: May 13 21:43 RTZ 2 (зима)
 "DiffService with matching hashes marks none changed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1003,19 +1003,19 @@ Test Passed.
 49/110 Test: DiffService detects changed file content
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "DiffService detects changed file content"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"DiffService detects changed file content" start time: May 13 21:32 RTZ 2 (зима)
+"DiffService detects changed file content" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "DiffService detects changed file content"
-Randomness seeded to: 2823264751
+Randomness seeded to: 3577446462
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"DiffService detects changed file content" end time: May 13 21:32 RTZ 2 (зима)
+"DiffService detects changed file content" end time: May 13 21:43 RTZ 2 (зима)
 "DiffService detects changed file content" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1023,19 +1023,19 @@ Test Passed.
 50/110 Test: DiffService handles new file not in hashes
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "DiffService handles new file not in hashes"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"DiffService handles new file not in hashes" start time: May 13 21:32 RTZ 2 (зима)
+"DiffService handles new file not in hashes" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "DiffService handles new file not in hashes"
-Randomness seeded to: 1745227870
+Randomness seeded to: 543859691
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"DiffService handles new file not in hashes" end time: May 13 21:32 RTZ 2 (зима)
+"DiffService handles new file not in hashes" end time: May 13 21:43 RTZ 2 (зима)
 "DiffService handles new file not in hashes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1043,11 +1043,11 @@ Test Passed.
 51/110 Test: DiffService updates hash for changed files
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "DiffService updates hash for changed files"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"DiffService updates hash for changed files" start time: May 13 21:32 RTZ 2 (зима)
+"DiffService updates hash for changed files" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "DiffService updates hash for changed files"
-Randomness seeded to: 4147727870
+Randomness seeded to: 1947651019
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1055,7 +1055,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"DiffService updates hash for changed files" end time: May 13 21:32 RTZ 2 (зима)
+"DiffService updates hash for changed files" end time: May 13 21:43 RTZ 2 (зима)
 "DiffService updates hash for changed files" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1063,11 +1063,11 @@ Test Passed.
 52/110 Test: DiffService with multiple files some changed
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "DiffService with multiple files some changed"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"DiffService with multiple files some changed" start time: May 13 21:32 RTZ 2 (зима)
+"DiffService with multiple files some changed" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "DiffService with multiple files some changed"
-Randomness seeded to: 1578741351
+Randomness seeded to: 757051401
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1075,7 +1075,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"DiffService with multiple files some changed" end time: May 13 21:32 RTZ 2 (зима)
+"DiffService with multiple files some changed" end time: May 13 21:43 RTZ 2 (зима)
 "DiffService with multiple files some changed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1083,11 +1083,11 @@ Test Passed.
 53/110 Test: HashService calculateHash on empty file returns 0
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "HashService calculateHash on empty file returns 0"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"HashService calculateHash on empty file returns 0" start time: May 13 21:32 RTZ 2 (зима)
+"HashService calculateHash on empty file returns 0" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "HashService calculateHash on empty file returns 0"
-Randomness seeded to: 1522857846
+Randomness seeded to: 1731233068
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1095,7 +1095,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HashService calculateHash on empty file returns 0" end time: May 13 21:32 RTZ 2 (зима)
+"HashService calculateHash on empty file returns 0" end time: May 13 21:43 RTZ 2 (зима)
 "HashService calculateHash on empty file returns 0" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1103,11 +1103,11 @@ Test Passed.
 54/110 Test: HashService same content yields same hash
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "HashService same content yields same hash"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"HashService same content yields same hash" start time: May 13 21:32 RTZ 2 (зима)
+"HashService same content yields same hash" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "HashService same content yields same hash"
-Randomness seeded to: 2309104440
+Randomness seeded to: 1787241473
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1115,7 +1115,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HashService same content yields same hash" end time: May 13 21:32 RTZ 2 (зима)
+"HashService same content yields same hash" end time: May 13 21:43 RTZ 2 (зима)
 "HashService same content yields same hash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1123,11 +1123,11 @@ Test Passed.
 55/110 Test: HashService different content yields different hash
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "HashService different content yields different hash"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"HashService different content yields different hash" start time: May 13 21:32 RTZ 2 (зима)
+"HashService different content yields different hash" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "HashService different content yields different hash"
-Randomness seeded to: 1452650686
+Randomness seeded to: 2623378641
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1135,7 +1135,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HashService different content yields different hash" end time: May 13 21:32 RTZ 2 (зима)
+"HashService different content yields different hash" end time: May 13 21:43 RTZ 2 (зима)
 "HashService different content yields different hash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1143,11 +1143,11 @@ Test Passed.
 56/110 Test: HashService large file (1 MB) does not crash
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "HashService large file (1 MB) does not crash"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"HashService large file (1 MB) does not crash" start time: May 13 21:32 RTZ 2 (зима)
+"HashService large file (1 MB) does not crash" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "HashService large file (1 MB) does not crash"
-Randomness seeded to: 1360028771
+Randomness seeded to: 1190546831
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1155,7 +1155,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashService large file (1 MB) does not crash" end time: May 13 21:32 RTZ 2 (зима)
+"HashService large file (1 MB) does not crash" end time: May 13 21:43 RTZ 2 (зима)
 "HashService large file (1 MB) does not crash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1163,11 +1163,11 @@ Test Passed.
 57/110 Test: HashService binary file integrity
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "HashService binary file integrity"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"HashService binary file integrity" start time: May 13 21:32 RTZ 2 (зима)
+"HashService binary file integrity" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "HashService binary file integrity"
-Randomness seeded to: 2730200324
+Randomness seeded to: 1176955983
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1175,7 +1175,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HashService binary file integrity" end time: May 13 21:32 RTZ 2 (зима)
+"HashService binary file integrity" end time: May 13 21:43 RTZ 2 (зима)
 "HashService binary file integrity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1183,11 +1183,11 @@ Test Passed.
 58/110 Test: HashService non-existent file returns empty string
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "HashService non-existent file returns empty string"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"HashService non-existent file returns empty string" start time: May 13 21:32 RTZ 2 (зима)
+"HashService non-existent file returns empty string" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "HashService non-existent file returns empty string"
-Randomness seeded to: 3215819249
+Randomness seeded to: 1390435967
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1195,7 +1195,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HashService non-existent file returns empty string" end time: May 13 21:32 RTZ 2 (зима)
+"HashService non-existent file returns empty string" end time: May 13 21:43 RTZ 2 (зима)
 "HashService non-existent file returns empty string" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1203,11 +1203,11 @@ Test Passed.
 59/110 Test: FileService listFiles on empty directory
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "FileService listFiles on empty directory"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"FileService listFiles on empty directory" start time: May 13 21:32 RTZ 2 (зима)
+"FileService listFiles on empty directory" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "FileService listFiles on empty directory"
-Randomness seeded to: 3512610213
+Randomness seeded to: 3582311410
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1215,7 +1215,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"FileService listFiles on empty directory" end time: May 13 21:32 RTZ 2 (зима)
+"FileService listFiles on empty directory" end time: May 13 21:43 RTZ 2 (зима)
 "FileService listFiles on empty directory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1223,11 +1223,11 @@ Test Passed.
 60/110 Test: FileService listFiles on non-existent directory throws
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "FileService listFiles on non-existent directory throws"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"FileService listFiles on non-existent directory throws" start time: May 13 21:32 RTZ 2 (зима)
+"FileService listFiles on non-existent directory throws" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "FileService listFiles on non-existent directory throws"
-Randomness seeded to: 1253014603
+Randomness seeded to: 2362818363
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1235,7 +1235,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"FileService listFiles on non-existent directory throws" end time: May 13 21:32 RTZ 2 (зима)
+"FileService listFiles on non-existent directory throws" end time: May 13 21:43 RTZ 2 (зима)
 "FileService listFiles on non-existent directory throws" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1243,19 +1243,19 @@ Test Passed.
 61/110 Test: FileService listFiles finds all files recursively
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "FileService listFiles finds all files recursively"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"FileService listFiles finds all files recursively" start time: May 13 21:32 RTZ 2 (зима)
+"FileService listFiles finds all files recursively" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "FileService listFiles finds all files recursively"
-Randomness seeded to: 169923423
+Randomness seeded to: 1869050636
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"FileService listFiles finds all files recursively" end time: May 13 21:32 RTZ 2 (зима)
+"FileService listFiles finds all files recursively" end time: May 13 21:43 RTZ 2 (зима)
 "FileService listFiles finds all files recursively" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1263,19 +1263,19 @@ Test Passed.
 62/110 Test: FileService copyFile copies content
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "FileService copyFile copies content"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"FileService copyFile copies content" start time: May 13 21:32 RTZ 2 (зима)
+"FileService copyFile copies content" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "FileService copyFile copies content"
-Randomness seeded to: 2195987221
+Randomness seeded to: 2282258587
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"FileService copyFile copies content" end time: May 13 21:32 RTZ 2 (зима)
+"FileService copyFile copies content" end time: May 13 21:43 RTZ 2 (зима)
 "FileService copyFile copies content" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1283,11 +1283,11 @@ Test Passed.
 63/110 Test: FileService copyFile throws if source cannot be opened
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "FileService copyFile throws if source cannot be opened"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"FileService copyFile throws if source cannot be opened" start time: May 13 21:32 RTZ 2 (зима)
+"FileService copyFile throws if source cannot be opened" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "FileService copyFile throws if source cannot be opened"
-Randomness seeded to: 2675375369
+Randomness seeded to: 768119787
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1295,7 +1295,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"FileService copyFile throws if source cannot be opened" end time: May 13 21:32 RTZ 2 (зима)
+"FileService copyFile throws if source cannot be opened" end time: May 13 21:43 RTZ 2 (зима)
 "FileService copyFile throws if source cannot be opened" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1303,11 +1303,11 @@ Test Passed.
 64/110 Test: JobConverter toDTO -> fromDTO roundtrip
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobConverter toDTO -> fromDTO roundtrip"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobConverter toDTO -> fromDTO roundtrip" start time: May 13 21:32 RTZ 2 (зима)
+"JobConverter toDTO -> fromDTO roundtrip" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "JobConverter toDTO -> fromDTO roundtrip"
-Randomness seeded to: 2577087669
+Randomness seeded to: 1188966078
 ===============================================================================
 All tests passed (4 assertions in 1 test case)
 
@@ -1315,7 +1315,7 @@ All tests passed (4 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobConverter toDTO -> fromDTO roundtrip" end time: May 13 21:32 RTZ 2 (зима)
+"JobConverter toDTO -> fromDTO roundtrip" end time: May 13 21:43 RTZ 2 (зима)
 "JobConverter toDTO -> fromDTO roundtrip" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1323,11 +1323,11 @@ Test Passed.
 65/110 Test: JobConverter fromDTO with disabled job
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobConverter fromDTO with disabled job"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobConverter fromDTO with disabled job" start time: May 13 21:32 RTZ 2 (зима)
+"JobConverter fromDTO with disabled job" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "JobConverter fromDTO with disabled job"
-Randomness seeded to: 1829576446
+Randomness seeded to: 1275582187
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1335,7 +1335,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobConverter fromDTO with disabled job" end time: May 13 21:32 RTZ 2 (зима)
+"JobConverter fromDTO with disabled job" end time: May 13 21:43 RTZ 2 (зима)
 "JobConverter fromDTO with disabled job" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1343,11 +1343,11 @@ Test Passed.
 66/110 Test: JobConverter toDTO preserves enable state
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobConverter toDTO preserves enable state"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobConverter toDTO preserves enable state" start time: May 13 21:32 RTZ 2 (зима)
+"JobConverter toDTO preserves enable state" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "JobConverter toDTO preserves enable state"
-Randomness seeded to: 4257909665
+Randomness seeded to: 3873173668
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1355,7 +1355,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobConverter toDTO preserves enable state" end time: May 13 21:32 RTZ 2 (зима)
+"JobConverter toDTO preserves enable state" end time: May 13 21:43 RTZ 2 (зима)
 "JobConverter toDTO preserves enable state" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1363,11 +1363,11 @@ Test Passed.
 67/110 Test: JobConverter empty strings in DTO
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobConverter empty strings in DTO"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobConverter empty strings in DTO" start time: May 13 21:32 RTZ 2 (зима)
+"JobConverter empty strings in DTO" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "JobConverter empty strings in DTO"
-Randomness seeded to: 1282200651
+Randomness seeded to: 1911507640
 ===============================================================================
 All tests passed (4 assertions in 1 test case)
 
@@ -1375,7 +1375,7 @@ All tests passed (4 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobConverter empty strings in DTO" end time: May 13 21:32 RTZ 2 (зима)
+"JobConverter empty strings in DTO" end time: May 13 21:43 RTZ 2 (зима)
 "JobConverter empty strings in DTO" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1383,11 +1383,11 @@ Test Passed.
 68/110 Test: JobConverter DTO with special characters
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "JobConverter DTO with special characters"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"JobConverter DTO with special characters" start time: May 13 21:32 RTZ 2 (зима)
+"JobConverter DTO with special characters" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "JobConverter DTO with special characters"
-Randomness seeded to: 1310911376
+Randomness seeded to: 3866134413
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1395,7 +1395,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"JobConverter DTO with special characters" end time: May 13 21:32 RTZ 2 (зима)
+"JobConverter DTO with special characters" end time: May 13 21:43 RTZ 2 (зима)
 "JobConverter DTO with special characters" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1403,11 +1403,11 @@ Test Passed.
 69/110 Test: RestorePoint full constructor
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestorePoint full constructor"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestorePoint full constructor" start time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint full constructor" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestorePoint full constructor"
-Randomness seeded to: 1194167773
+Randomness seeded to: 1033736850
 ===============================================================================
 All tests passed (4 assertions in 1 test case)
 
@@ -1415,7 +1415,7 @@ All tests passed (4 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RestorePoint full constructor" end time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint full constructor" end time: May 13 21:43 RTZ 2 (зима)
 "RestorePoint full constructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1423,11 +1423,11 @@ Test Passed.
 70/110 Test: RestorePoint incremental type
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestorePoint incremental type"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestorePoint incremental type" start time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint incremental type" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestorePoint incremental type"
-Randomness seeded to: 687321096
+Randomness seeded to: 167285124
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1435,7 +1435,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RestorePoint incremental type" end time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint incremental type" end time: May 13 21:43 RTZ 2 (зима)
 "RestorePoint incremental type" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1443,11 +1443,11 @@ Test Passed.
 71/110 Test: RestorePoint default constructor creates empty
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestorePoint default constructor creates empty"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestorePoint default constructor creates empty" start time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint default constructor creates empty" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestorePoint default constructor creates empty"
-Randomness seeded to: 1268387487
+Randomness seeded to: 2045848726
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1455,7 +1455,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RestorePoint default constructor creates empty" end time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint default constructor creates empty" end time: May 13 21:43 RTZ 2 (зима)
 "RestorePoint default constructor creates empty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1463,11 +1463,11 @@ Test Passed.
 72/110 Test: RestorePoint timestamps can be compared
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestorePoint timestamps can be compared"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestorePoint timestamps can be compared" start time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint timestamps can be compared" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestorePoint timestamps can be compared"
-Randomness seeded to: 681705912
+Randomness seeded to: 223260683
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1475,7 +1475,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RestorePoint timestamps can be compared" end time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint timestamps can be compared" end time: May 13 21:43 RTZ 2 (зима)
 "RestorePoint timestamps can be compared" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1483,11 +1483,11 @@ Test Passed.
 73/110 Test: RestorePoint copy semantics
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RestorePoint copy semantics"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RestorePoint copy semantics" start time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint copy semantics" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RestorePoint copy semantics"
-Randomness seeded to: 592570482
+Randomness seeded to: 2634339492
 ===============================================================================
 All tests passed (4 assertions in 1 test case)
 
@@ -1495,7 +1495,7 @@ All tests passed (4 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RestorePoint copy semantics" end time: May 13 21:32 RTZ 2 (зима)
+"RestorePoint copy semantics" end time: May 13 21:43 RTZ 2 (зима)
 "RestorePoint copy semantics" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1503,11 +1503,11 @@ Test Passed.
 74/110 Test: RetentionPolicy defaults
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionPolicy defaults"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionPolicy defaults" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy defaults" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionPolicy defaults"
-Randomness seeded to: 3422749551
+Randomness seeded to: 1509012848
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1515,7 +1515,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionPolicy defaults" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy defaults" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionPolicy defaults" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1523,11 +1523,11 @@ Test Passed.
 75/110 Test: RetentionPolicy changeStorageSize
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionPolicy changeStorageSize"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionPolicy changeStorageSize" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy changeStorageSize" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionPolicy changeStorageSize"
-Randomness seeded to: 431576594
+Randomness seeded to: 379317401
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1535,7 +1535,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionPolicy changeStorageSize" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy changeStorageSize" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionPolicy changeStorageSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1543,11 +1543,11 @@ Test Passed.
 76/110 Test: RetentionPolicy changeMaxDays
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionPolicy changeMaxDays"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionPolicy changeMaxDays" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy changeMaxDays" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionPolicy changeMaxDays"
-Randomness seeded to: 3301305233
+Randomness seeded to: 396327488
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1555,7 +1555,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionPolicy changeMaxDays" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy changeMaxDays" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionPolicy changeMaxDays" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1563,11 +1563,11 @@ Test Passed.
 77/110 Test: RetentionPolicy changeMinRestorePoints
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionPolicy changeMinRestorePoints"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionPolicy changeMinRestorePoints" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy changeMinRestorePoints" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionPolicy changeMinRestorePoints"
-Randomness seeded to: 1623441698
+Randomness seeded to: 2823429736
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1575,7 +1575,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionPolicy changeMinRestorePoints" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy changeMinRestorePoints" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionPolicy changeMinRestorePoints" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1583,11 +1583,11 @@ Test Passed.
 78/110 Test: RetentionPolicy multiple changes
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionPolicy multiple changes"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionPolicy multiple changes" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy multiple changes" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionPolicy multiple changes"
-Randomness seeded to: 1865666499
+Randomness seeded to: 1369862579
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1595,7 +1595,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionPolicy multiple changes" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy multiple changes" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionPolicy multiple changes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1603,11 +1603,11 @@ Test Passed.
 79/110 Test: RetentionPolicy independent modifications
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "RetentionPolicy independent modifications"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"RetentionPolicy independent modifications" start time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy independent modifications" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "RetentionPolicy independent modifications"
-Randomness seeded to: 1597986692
+Randomness seeded to: 1613129727
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1615,7 +1615,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"RetentionPolicy independent modifications" end time: May 13 21:32 RTZ 2 (зима)
+"RetentionPolicy independent modifications" end time: May 13 21:43 RTZ 2 (зима)
 "RetentionPolicy independent modifications" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1623,11 +1623,11 @@ Test Passed.
 80/110 Test: Schedule default constructor
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule default constructor"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule default constructor" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule default constructor" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule default constructor"
-Randomness seeded to: 3993533045
+Randomness seeded to: 1375955616
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1635,7 +1635,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule default constructor" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule default constructor" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule default constructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1643,11 +1643,11 @@ Test Passed.
 81/110 Test: Schedule parameterized constructor with zero interval
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule parameterized constructor with zero interval"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule parameterized constructor with zero interval" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule parameterized constructor with zero interval" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule parameterized constructor with zero interval"
-Randomness seeded to: 938420885
+Randomness seeded to: 1729925378
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1655,7 +1655,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule parameterized constructor with zero interval" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule parameterized constructor with zero interval" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule parameterized constructor with zero interval" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1663,11 +1663,11 @@ Test Passed.
 82/110 Test: Schedule parameterized with large interval
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule parameterized with large interval"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule parameterized with large interval" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule parameterized with large interval" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule parameterized with large interval"
-Randomness seeded to: 699226129
+Randomness seeded to: 4044174292
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1675,7 +1675,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule parameterized with large interval" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule parameterized with large interval" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule parameterized with large interval" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1683,11 +1683,11 @@ Test Passed.
 83/110 Test: Schedule setEnabled toggles state
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule setEnabled toggles state"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule setEnabled toggles state" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule setEnabled toggles state" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule setEnabled toggles state"
-Randomness seeded to: 1610836944
+Randomness seeded to: 3995065393
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1695,7 +1695,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule setEnabled toggles state" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule setEnabled toggles state" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule setEnabled toggles state" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1703,11 +1703,11 @@ Test Passed.
 84/110 Test: Schedule updateLastRun stores time
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule updateLastRun stores time"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule updateLastRun stores time" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule updateLastRun stores time" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule updateLastRun stores time"
-Randomness seeded to: 4247708893
+Randomness seeded to: 1176413032
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1715,7 +1715,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule updateLastRun stores time" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule updateLastRun stores time" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule updateLastRun stores time" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1723,11 +1723,11 @@ Test Passed.
 85/110 Test: Schedule shouldRun with disabled always false
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule shouldRun with disabled always false"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule shouldRun with disabled always false" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun with disabled always false" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule shouldRun with disabled always false"
-Randomness seeded to: 4171108617
+Randomness seeded to: 413597770
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1735,7 +1735,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule shouldRun with disabled always false" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun with disabled always false" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule shouldRun with disabled always false" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1743,11 +1743,11 @@ Test Passed.
 86/110 Test: Schedule shouldRun respects interval
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule shouldRun respects interval"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule shouldRun respects interval" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun respects interval" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule shouldRun respects interval"
-Randomness seeded to: 3455045593
+Randomness seeded to: 2819708222
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1755,7 +1755,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule shouldRun respects interval" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun respects interval" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule shouldRun respects interval" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1763,11 +1763,11 @@ Test Passed.
 87/110 Test: Schedule shouldRun with zero interval always true
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule shouldRun with zero interval always true"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule shouldRun with zero interval always true" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun with zero interval always true" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule shouldRun with zero interval always true"
-Randomness seeded to: 2013827230
+Randomness seeded to: 2562385642
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1775,7 +1775,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule shouldRun with zero interval always true" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun with zero interval always true" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule shouldRun with zero interval always true" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1783,11 +1783,11 @@ Test Passed.
 88/110 Test: Schedule shouldRun after update resets timer
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "Schedule shouldRun after update resets timer"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Schedule shouldRun after update resets timer" start time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun after update resets timer" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "Schedule shouldRun after update resets timer"
-Randomness seeded to: 1499073640
+Randomness seeded to: 3309251937
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1795,7 +1795,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Schedule shouldRun after update resets timer" end time: May 13 21:32 RTZ 2 (зима)
+"Schedule shouldRun after update resets timer" end time: May 13 21:43 RTZ 2 (зима)
 "Schedule shouldRun after update resets timer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1803,11 +1803,11 @@ Test Passed.
 89/110 Test: BackupJob constructor sets all fields correctly
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob constructor sets all fields correctly"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob constructor sets all fields correctly" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob constructor sets all fields correctly" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob constructor sets all fields correctly"
-Randomness seeded to: 2169340694
+Randomness seeded to: 2923289853
 ===============================================================================
 All tests passed (7 assertions in 1 test case)
 
@@ -1815,7 +1815,7 @@ All tests passed (7 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob constructor sets all fields correctly" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob constructor sets all fields correctly" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob constructor sets all fields correctly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1823,11 +1823,11 @@ Test Passed.
 90/110 Test: BackupJob constructor with disabled schedule
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob constructor with disabled schedule"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob constructor with disabled schedule" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob constructor with disabled schedule" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob constructor with disabled schedule"
-Randomness seeded to: 1414280672
+Randomness seeded to: 376568129
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1835,7 +1835,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob constructor with disabled schedule" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob constructor with disabled schedule" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob constructor with disabled schedule" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1843,11 +1843,11 @@ Test Passed.
 91/110 Test: BackupJob constructor with custom retention
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob constructor with custom retention"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob constructor with custom retention" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob constructor with custom retention" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob constructor with custom retention"
-Randomness seeded to: 3237027205
+Randomness seeded to: 3662191023
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1855,7 +1855,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob constructor with custom retention" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob constructor with custom retention" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob constructor with custom retention" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1863,11 +1863,11 @@ Test Passed.
 92/110 Test: BackupJob default restore points and hashes are empty
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob default restore points and hashes are empty"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob default restore points and hashes are empty" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob default restore points and hashes are empty" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob default restore points and hashes are empty"
-Randomness seeded to: 2479801186
+Randomness seeded to: 2829902736
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1875,7 +1875,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob default restore points and hashes are empty" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob default restore points and hashes are empty" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob default restore points and hashes are empty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1883,11 +1883,11 @@ Test Passed.
 93/110 Test: BackupJob enable sets both flags true
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob enable sets both flags true"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob enable sets both flags true" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob enable sets both flags true" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob enable sets both flags true"
-Randomness seeded to: 2656680079
+Randomness seeded to: 3679573918
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1895,7 +1895,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob enable sets both flags true" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob enable sets both flags true" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob enable sets both flags true" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1903,11 +1903,11 @@ Test Passed.
 94/110 Test: BackupJob disable clears both flags
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob disable clears both flags"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob disable clears both flags" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob disable clears both flags" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob disable clears both flags"
-Randomness seeded to: 1463148341
+Randomness seeded to: 3746894710
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -1915,7 +1915,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob disable clears both flags" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob disable clears both flags" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob disable clears both flags" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1923,19 +1923,19 @@ Test Passed.
 95/110 Test: BackupJob multiple enable/disable toggles
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob multiple enable/disable toggles"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob multiple enable/disable toggles" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob multiple enable/disable toggles" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob multiple enable/disable toggles"
-Randomness seeded to: 2328901238
+Randomness seeded to: 3639976872
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob multiple enable/disable toggles" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob multiple enable/disable toggles" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob multiple enable/disable toggles" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1943,11 +1943,11 @@ Test Passed.
 96/110 Test: BackupJob addRestorePoint stores points in order
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob addRestorePoint stores points in order"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob addRestorePoint stores points in order" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob addRestorePoint stores points in order" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob addRestorePoint stores points in order"
-Randomness seeded to: 2291084946
+Randomness seeded to: 2118404260
 ===============================================================================
 All tests passed (3 assertions in 1 test case)
 
@@ -1955,7 +1955,7 @@ All tests passed (3 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob addRestorePoint stores points in order" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob addRestorePoint stores points in order" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob addRestorePoint stores points in order" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1963,11 +1963,11 @@ Test Passed.
 97/110 Test: BackupJob addRestorePoint can add many
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob addRestorePoint can add many"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob addRestorePoint can add many" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob addRestorePoint can add many" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob addRestorePoint can add many"
-Randomness seeded to: 154798907
+Randomness seeded to: 903158869
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -1975,7 +1975,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob addRestorePoint can add many" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob addRestorePoint can add many" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob addRestorePoint can add many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1983,11 +1983,11 @@ Test Passed.
 98/110 Test: BackupJob updateFileHash adds or updates
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob updateFileHash adds or updates"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob updateFileHash adds or updates" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob updateFileHash adds or updates" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob updateFileHash adds or updates"
-Randomness seeded to: 4207911442
+Randomness seeded to: 2453603362
 ===============================================================================
 All tests passed (4 assertions in 1 test case)
 
@@ -1995,7 +1995,7 @@ All tests passed (4 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob updateFileHash adds or updates" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob updateFileHash adds or updates" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob updateFileHash adds or updates" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2003,11 +2003,11 @@ Test Passed.
 99/110 Test: BackupJob clearFileHashes removes all
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob clearFileHashes removes all"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob clearFileHashes removes all" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob clearFileHashes removes all" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob clearFileHashes removes all"
-Randomness seeded to: 3177979667
+Randomness seeded to: 2281640200
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -2015,7 +2015,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob clearFileHashes removes all" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob clearFileHashes removes all" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob clearFileHashes removes all" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2023,11 +2023,11 @@ Test Passed.
 100/110 Test: BackupJob setFileHashes replaces existing
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob setFileHashes replaces existing"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob setFileHashes replaces existing" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setFileHashes replaces existing" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob setFileHashes replaces existing"
-Randomness seeded to: 972963373
+Randomness seeded to: 1461866300
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -2035,7 +2035,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob setFileHashes replaces existing" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setFileHashes replaces existing" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob setFileHashes replaces existing" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2043,11 +2043,11 @@ Test Passed.
 101/110 Test: BackupJob setId changes id
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob setId changes id"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob setId changes id" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setId changes id" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob setId changes id"
-Randomness seeded to: 2022073221
+Randomness seeded to: 2908609420
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -2055,7 +2055,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob setId changes id" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setId changes id" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob setId changes id" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2063,11 +2063,11 @@ Test Passed.
 102/110 Test: BackupJob setName changes name
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob setName changes name"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob setName changes name" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setName changes name" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob setName changes name"
-Randomness seeded to: 37598372
+Randomness seeded to: 4101105788
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -2075,7 +2075,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob setName changes name" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setName changes name" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob setName changes name" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2083,11 +2083,11 @@ Test Passed.
 103/110 Test: BackupJob setSource changes source
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob setSource changes source"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob setSource changes source" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setSource changes source" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob setSource changes source"
-Randomness seeded to: 2103649572
+Randomness seeded to: 3329260955
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -2095,7 +2095,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob setSource changes source" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setSource changes source" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob setSource changes source" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2103,11 +2103,11 @@ Test Passed.
 104/110 Test: BackupJob setTarget changes target
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/unit_tests.exe" "BackupJob setTarget changes target"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"BackupJob setTarget changes target" start time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setTarget changes target" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Filters: "BackupJob setTarget changes target"
-Randomness seeded to: 725759553
+Randomness seeded to: 191140230
 ===============================================================================
 All tests passed (1 assertion in 1 test case)
 
@@ -2115,7 +2115,7 @@ All tests passed (1 assertion in 1 test case)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BackupJob setTarget changes target" end time: May 13 21:32 RTZ 2 (зима)
+"BackupJob setTarget changes target" end time: May 13 21:43 RTZ 2 (зима)
 "BackupJob setTarget changes target" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2123,12 +2123,9 @@ Test Passed.
 105/110 Test: Scenario: Complete lifecycle: create, edit, delete a job
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios.exe" "Scenario: Complete lifecycle: create\, edit\, delete a job"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Scenario: Complete lifecycle: create, edit, delete a job" start time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Complete lifecycle: create, edit, delete a job" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
-Saved 1 jobs to "jobs.json"
-Saved 1 jobs to "jobs.json"
-Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
@@ -2136,15 +2133,15 @@ Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Saved 0 jobs to "jobs.json"
 Filters: "Scenario: Complete lifecycle: create\, edit\, delete a job"
-Randomness seeded to: 1445388176
+Randomness seeded to: 3196381324
 ===============================================================================
 All tests passed (4 assertions in 1 test case)
 
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"Scenario: Complete lifecycle: create, edit, delete a job" end time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Complete lifecycle: create, edit, delete a job" end time: May 13 21:43 RTZ 2 (зима)
 "Scenario: Complete lifecycle: create, edit, delete a job" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2152,90 +2149,46 @@ Test Passed.
 106/110 Test: Scenario: Scheduled backup respects interval
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios.exe" "Scenario: Scheduled backup respects interval"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Scenario: Scheduled backup respects interval" start time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Scheduled backup respects interval" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Filters: "Scenario: Scheduled backup respects interval"
-Randomness seeded to: 766658949
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_scenarios.exe is a Catch2 v3.5.2 host application.
-Run with -? for options
-
--------------------------------------------------------------------------------
-Scenario: Scheduled backup respects interval
-      Given: a job with interval 1 second and real directories
-       When: time passes less than interval
-   And when: time passes more than interval
-       Then: a restore point is created
--------------------------------------------------------------------------------
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:69
-...............................................................................
-
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:70: FAILED:
-  REQUIRE( facade.getJobs()[0].getRestorePoints().size() == 1 )
-with expansion:
-  2 == 1
-
-Saved 1 jobs to "jobs.json"
-Saved 1 jobs to "jobs.json"
-Saved 1 jobs to "jobs.json"
+Randomness seeded to: 1335033675
 ===============================================================================
-test cases: 1 | 1 failed
-assertions: 5 | 4 passed | 1 failed
+All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   2.32 sec
+Test time =   1.19 sec
 ----------------------------------------------------------
-Test Failed.
-"Scenario: Scheduled backup respects interval" end time: May 13 21:32 RTZ 2 (зима)
-"Scenario: Scheduled backup respects interval" time elapsed: 00:00:02
+Test Passed.
+"Scenario: Scheduled backup respects interval" end time: May 13 21:43 RTZ 2 (зима)
+"Scenario: Scheduled backup respects interval" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 107/110 Testing: Scenario: Full and incremental backup with restore from latest
 107/110 Test: Scenario: Full and incremental backup with restore from latest
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios.exe" "Scenario: Full and incremental backup with restore from latest"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Scenario: Full and incremental backup with restore from latest" start time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Full and incremental backup with restore from latest" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
+Saved 1 jobs to "jobs.json"
 Filters: "Scenario: Full and incremental backup with restore from latest"
-Randomness seeded to: 1919270608
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_scenarios.exe is a Catch2 v3.5.2 host application.
-Run with -? for options
-
--------------------------------------------------------------------------------
-Scenario: Full and incremental backup with restore from latest
-      Given: a source with one file
-       When: first backup runs
--------------------------------------------------------------------------------
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:89
-...............................................................................
-
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:92: FAILED:
-  REQUIRE( points.size() == 1 )
-with expansion:
-  2 == 1
-
-Saved 1 jobs to "jobs.json"
-Saved 1 jobs to "jobs.json"
+Randomness seeded to: 2434566903
 ===============================================================================
-test cases: 1 | 1 failed
-assertions: 1 | 1 failed
+All tests passed (5 assertions in 1 test case)
 
 <end of output>
-Test time =   0.09 sec
+Test time =   0.17 sec
 ----------------------------------------------------------
-Test Failed.
-"Scenario: Full and incremental backup with restore from latest" end time: May 13 21:32 RTZ 2 (зима)
+Test Passed.
+"Scenario: Full and incremental backup with restore from latest" end time: May 13 21:43 RTZ 2 (зима)
 "Scenario: Full and incremental backup with restore from latest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2243,39 +2196,23 @@ Test Failed.
 108/110 Test: Scenario: Retention policy by max size
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios.exe" "Scenario: Retention policy by max size"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Scenario: Retention policy by max size" start time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Retention policy by max size" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
+Saved 1 jobs to "jobs.json"
+Saved 1 jobs to "jobs.json"
+Saved 1 jobs to "jobs.json"
 Filters: "Scenario: Retention policy by max size"
-Randomness seeded to: 1546525961
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_scenarios.exe is a Catch2 v3.5.2 host application.
-Run with -? for options
-
--------------------------------------------------------------------------------
-Scenario: Retention policy by max size
-      Given: a job with max storage size 1 MB and min points 1, real
-             directories
--------------------------------------------------------------------------------
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:118
-...............................................................................
-
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:118: FAILED:
-due to unexpected exception with message:
-  filesystem error: cannot get file size: Is a directory [C:\Users\Mash\
-  AppData\Local\Temp\size_dst\size1_20260513_213231_FULL]
-
+Randomness seeded to: 3186144577
 ===============================================================================
-test cases: 1 | 1 failed
-assertions: 1 | 1 failed
+All tests passed (1 assertion in 1 test case)
 
 <end of output>
-Test time =   0.03 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
-Test Failed.
-"Scenario: Retention policy by max size" end time: May 13 21:32 RTZ 2 (зима)
+Test Passed.
+"Scenario: Retention policy by max size" end time: May 13 21:43 RTZ 2 (зима)
 "Scenario: Retention policy by max size" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2283,45 +2220,22 @@ Test Failed.
 109/110 Test: Scenario: Retention policy by max days
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios.exe" "Scenario: Retention policy by max days"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Scenario: Retention policy by max days" start time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Retention policy by max days" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Filters: "Scenario: Retention policy by max days"
-Randomness seeded to: 3827081467
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-test_scenarios.exe is a Catch2 v3.5.2 host application.
-Run with -? for options
-
--------------------------------------------------------------------------------
-Scenario: Retention policy by max days
-      Given: a job with max days = 1 and real directories
-       When: a backup point older than 1 day exists
-       Then: old point is removed
--------------------------------------------------------------------------------
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:164
-...............................................................................
-
-C:\Users\Mash\Desktop\PKS\BackupSystem\tests\test_scenarios.cpp:170: FAILED:
-  REQUIRE( points.size() == 1 )
-with expansion:
-  2 == 1
-
-Saved 1 jobs to "jobs.json"
-Saved 1 jobs to "jobs.json"
-Saved 1 jobs to "jobs.json"
+Randomness seeded to: 4239697247
 ===============================================================================
-test cases: 1 | 1 failed
-assertions: 2 | 1 passed | 1 failed
+All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.07 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
-Test Failed.
-"Scenario: Retention policy by max days" end time: May 13 21:32 RTZ 2 (зима)
+Test Passed.
+"Scenario: Retention policy by max days" end time: May 13 21:43 RTZ 2 (зима)
 "Scenario: Retention policy by max days" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2329,14 +2243,14 @@ Test Failed.
 110/110 Test: Scenario: Error handling: backup when source file is locked
 Command: "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios.exe" "Scenario: Error handling: backup when source file is locked"
 Directory: C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests
-"Scenario: Error handling: backup when source file is locked" start time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Error handling: backup when source file is locked" start time: May 13 21:43 RTZ 2 (зима)
 Output:
 ----------------------------------------------------------
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Saved 1 jobs to "jobs.json"
 Filters: "Scenario: Error handling: backup when source file is locked"
-Randomness seeded to: 2380510554
+Randomness seeded to: 1131083754
 ===============================================================================
 test cases: 1 | 1 passed
 assertions: - none -
@@ -2345,8 +2259,8 @@ assertions: - none -
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"Scenario: Error handling: backup when source file is locked" end time: May 13 21:32 RTZ 2 (зима)
+"Scenario: Error handling: backup when source file is locked" end time: May 13 21:43 RTZ 2 (зима)
 "Scenario: Error handling: backup when source file is locked" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 13 21:32 RTZ 2 (зима)
+End testing: May 13 21:43 RTZ 2 (зима)

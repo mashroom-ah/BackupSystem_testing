@@ -4,6 +4,17 @@
 
 namespace fs = std::filesystem;
 
+static size_t getDirectorySize(const fs::path& dir) {
+    size_t size = 0;
+    if (!fs::exists(dir)) return 0;
+    if (fs::is_regular_file(dir)) return fs::file_size(dir);
+    for (const auto& entry : fs::recursive_directory_iterator(dir)) {
+        if (fs::is_regular_file(entry.path()))
+            size += fs::file_size(entry.path());
+    }
+    return size;
+}
+
 void RetentionService::applyRetention(BackupJob& job) {
     auto& points = job.getRestorePoints();
     auto& policy = job.getRetention();
@@ -15,7 +26,6 @@ void RetentionService::applyRetention(BackupJob& job) {
 
     int minPoints = std::max(1, policy.getMinRestorePoints());
 
-    // Удаление по максимальному возрасту (maxDays)
     if (policy.getMaxDays() > 0) {
         auto now = std::chrono::system_clock::now();
         auto it = points.begin();
@@ -31,23 +41,20 @@ void RetentionService::applyRetention(BackupJob& job) {
         }
     }
 
-    // Удаление по максимальному размеру хранилища (maxStorageSize)
     if (policy.getMaxStorageSize() > 0) {
         size_t total = 0;
         for (auto& p : points) {
-            if (fs::exists(p.getPath()))
-                total += fs::file_size(p.getPath());
+            total += getDirectorySize(p.getPath());
         }
         while (total > static_cast<size_t>(policy.getMaxStorageSize()) * 1024 * 1024 && points.size() > static_cast<size_t>(minPoints)) {
             if (fs::exists(points.front().getPath())) {
-                total -= fs::file_size(points.front().getPath());
+                total -= getDirectorySize(points.front().getPath());
                 fs::remove_all(points.front().getPath());
             }
             points.erase(points.begin());
         }
     }
 
-    // Гарантия минимального количества точек
     while (points.size() > static_cast<size_t>(minPoints)) {
         if (fs::exists(points.front().getPath()))
             fs::remove_all(points.front().getPath());
