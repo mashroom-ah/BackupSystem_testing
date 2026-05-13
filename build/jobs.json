@@ -1,0 +1,17 @@
+[
+    {
+        "enabled": false,
+        "fileHashes": {
+        },
+        "id": "f5",
+        "interval": 0,
+        "lastRun": 1778693730,
+        "maxDays": 0,
+        "maxSize": 0,
+        "name": "test",
+        "restorePoints": [
+        ],
+        "source": "/s",
+        "target": "/d"
+    }
+]

@@ -1,0 +1,7 @@
+Catch2WithMain_autogen/timestamp: \
+	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Users/Mash/Desktop/PKS/BackupSystem/build/_deps/catch2-src/CMake/CatchMiscFunctions.cmake \
+	C:/Users/Mash/Desktop/PKS/BackupSystem/build/_deps/catch2-src/src/CMakeLists.txt \
+	C:/Users/Mash/Desktop/PKS/BackupSystem/build/_deps/catch2-src/src/catch2/catch_user_config.hpp.in \
+	C:/Users/Mash/Desktop/PKS/BackupSystem/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp \
+	C:/Qt/Tools/CMake_64/bin/cmake.exe

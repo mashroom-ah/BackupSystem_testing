@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>JobDialog</class>
+<widget class="QDialog" name="JobDialog">
+ <property name="windowTitle">
+  <string>Создание / Редактирование задачи</string>
+ </property>
+
+ <layout class="QVBoxLayout">
+
+  <item>
+   <widget class="QLineEdit" name="nameEdit">
+    <property name="placeholderText">
+     <string>Имя задачи</string>
+    </property>
+   </widget>
+  </item>
+
+  <item>
+   <layout class="QHBoxLayout">
+    <item>
+     <widget class="QLineEdit" name="sourceEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="sourceBtn">
+      <property name="text"><string>Источник</string></property>
+     </widget>
+    </item>
+   </layout>
+  </item>
+
+  <item>
+   <layout class="QHBoxLayout">
+    <item>
+     <widget class="QLineEdit" name="targetEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="targetBtn">
+      <property name="text"><string>Хранилище</string></property>
+     </widget>
+    </item>
+   </layout>
+  </item>
+
+  <item>
+   <layout class="QHBoxLayout">
+    <item>
+     <widget class="QSpinBox" name="intervalSpin"/>
+    </item>
+    <item>
+     <widget class="QComboBox" name="intervalType">
+      <item><property name="text"><string>Минуты</string></property></item>
+      <item><property name="text"><string>Часы</string></property></item>
+      <item><property name="text"><string>Дни</string></property></item>
+     </widget>
+    </item>
+   </layout>
+  </item>
+
+  <item>
+   <widget class="QCheckBox" name="enabledCheck">
+    <property name="text"><string>Включена</string></property>
+   </widget>
+  </item>
+
+  <item>
+   <widget class="QSpinBox" name="maxSizeSpin">
+    <property name="prefix"><string>Макс размер: </string></property>
+   </widget>
+  </item>
+
+  <item>
+   <widget class="QSpinBox" name="maxDaysSpin">
+    <property name="prefix"><string>Макс дни: </string></property>
+   </widget>
+  </item>
+
+  <item>
+   <layout class="QHBoxLayout">
+    <item>
+     <widget class="QPushButton" name="okBtn">
+      <property name="text"><string>OK</string></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="cancelBtn">
+      <property name="text"><string>Отмена</string></property>
+     </widget>
+    </item>
+   </layout>
+  </item>
+
+ </layout>
+</widget>
+</ui>

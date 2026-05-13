@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc libCatch2Main.a CMakeFiles/Catch2WithMain.dir/Catch2WithMain_autogen/mocs_compilation.cpp.obj CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.obj
+C:\Qt\Tools\mingw1310_64\bin\ranlib.exe libCatch2Main.a

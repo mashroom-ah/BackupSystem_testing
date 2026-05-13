@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios-b12d07c_tests.cmake")
+  include("C:/Users/Mash/Desktop/PKS/BackupSystem/build/tests/test_scenarios-b12d07c_tests.cmake")
+else()
+  add_test(test_scenarios_NOT_BUILT-b12d07c test_scenarios_NOT_BUILT-b12d07c)
+endif()
