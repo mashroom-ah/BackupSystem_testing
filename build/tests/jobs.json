@@ -5,15 +5,15 @@
         },
         "id": "lock1",
         "interval": 0,
-        "lastRun": 1778697807,
+        "lastRun": 1778738658,
         "maxDays": 0,
         "maxSize": 0,
         "name": "lock_test",
         "restorePoints": [
             {
-                "id": "lock1_20260513_214327_FULL",
-                "path": "C:\\Users\\Mash\\AppData\\Local\\Temp\\locked_dst\\lock1_20260513_214327_FULL",
-                "timestamp": 1778697807,
+                "id": "lock1_20260514_090418_FULL",
+                "path": "C:\\Users\\Mash\\AppData\\Local\\Temp\\locked_dst\\lock1_20260514_090418_FULL",
+                "timestamp": 1778738658,
                 "type": 0
             }
         ],

@@ -328,114 +328,224 @@ Scenario: 0 0
 Scenario: 0 0
 Scenario: 0 0
 Scenario: 0 0
-StorageService compress does not throw on non-existent path 1 0.0318218
-StorageService compress on empty directory 1 0.0297488
-StorageService compress on directory with files 1 0.0302213
-StorageService compress on subdirectory 1 0.0253255
-StorageService compress on empty file 1 0.0212478
-StorageService compress on large file (no crash) 1 0.0490001
-ApplicationFacade create and get jobs 1 0.0379016
-ApplicationFacade updateJob 1 0.026959
-ApplicationFacade deleteJob 1 0.0288695
-ApplicationFacade runBackup throws on disabled job 1 0.0257398
-ApplicationFacade runBackup on non-existent job throws 1 0.01776
-ApplicationFacade restore throws on invalid point 1 0.0266626
-ApplicationFacade loadJobs loads existing jobs.json 1 0.0224902
-JobRepository save and load empty 1 0.0259573
-JobRepository save and load one job 1 0.0327527
-JobRepository persists restore points 1 0.0330489
-JobRepository persists file hashes 1 0.0325861
-JobRepository loads only existing restore points 1 0.0318223
-JobService create and get jobs 1 0.0247092
-JobService updateJob 1 0.0240074
-JobService deleteJob 1 0.0248595
-JobService load from file 1 0.0319547
-JobService create multiple jobs 1 0.0413369
-JobService update non-existent job does nothing 1 0.0220423
-RestoreService restores a full backup point 1 0.14827
-RestoreService throws if point not found 1 0.0339232
-RestoreService restores from incremental point 1 0.150729
-RestoreService restores multiple files 1 0.0361755
-RestoreService creates restore directory 1 0.025375
-BackupService first backup creates FULL point 1 0.0247875
-BackupService incremental after file change 1 0.0242102
-BackupService no changes still creates a point (empty) 1 0.0251392
-BackupService multiple files incremental 1 0.0359589
-BackupService handles empty source directory 1 0.0194504
-RetentionService keeps at least minRestorePoints (default 3) 1 0.0204843
-RetentionService respects custom minRestorePoints 1 0.0246817
-RetentionService removes points older than maxDays 1 0.02121
-RetentionService respects maxStorageSize 1 0.0197161
-RetentionService maxStorageSize does not remove below min points 1 0.0303168
-RetentionService combines maxDays and maxStorageSize 1 0.03091
-RetentionService handles empty points list 1 0.0152441
-CompressionService compress single file 1 0.543954
-CompressionService compress multiple files 1 0.547019
-CompressionService compress subdirectories 1 0.542894
-CompressionService decompress restores original 1 1.0686
-CompressionService decompress with multiple files 1 1.06468
-DiffService with empty hashes marks all as changed 1 0.0305477
-DiffService with matching hashes marks none changed 1 0.0297534
-DiffService detects changed file content 1 0.0306445
-DiffService handles new file not in hashes 1 0.0251338
-DiffService updates hash for changed files 1 0.0255873
-DiffService with multiple files some changed 1 0.0227655
-HashService calculateHash on empty file returns 0 1 0.0207535
-HashService same content yields same hash 1 0.0205801
-HashService different content yields different hash 1 0.0205079
-HashService large file (1 MB) does not crash 1 0.0415267
-HashService binary file integrity 1 0.0204432
-HashService non-existent file returns empty string 1 0.0199468
-FileService listFiles on empty directory 1 0.0236921
-FileService listFiles on non-existent directory throws 1 0.0208154
-FileService listFiles finds all files recursively 1 0.0297161
-FileService copyFile copies content 1 0.0276784
-FileService copyFile throws if source cannot be opened 1 0.0182156
-JobConverter toDTO -> fromDTO roundtrip 1 0.0157932
-JobConverter fromDTO with disabled job 1 0.0155829
-JobConverter toDTO preserves enable state 1 0.0153437
-JobConverter empty strings in DTO 1 0.0175223
-JobConverter DTO with special characters 1 0.0179397
-RestorePoint full constructor 1 0.0161367
-RestorePoint incremental type 1 0.0162601
-RestorePoint default constructor creates empty 1 0.0161985
-RestorePoint timestamps can be compared 1 0.0166453
-RestorePoint copy semantics 1 0.0162785
-RetentionPolicy defaults 1 0.0161396
-RetentionPolicy changeStorageSize 1 0.0203852
-RetentionPolicy changeMaxDays 1 0.0193243
-RetentionPolicy changeMinRestorePoints 1 0.0194578
-RetentionPolicy multiple changes 1 0.0185413
-RetentionPolicy independent modifications 1 0.0181882
-Schedule default constructor 1 0.0198835
-Schedule parameterized constructor with zero interval 1 0.0176679
-Schedule parameterized with large interval 1 0.020418
-Schedule setEnabled toggles state 1 0.0192644
-Schedule updateLastRun stores time 1 0.0192015
-Schedule shouldRun with disabled always false 1 0.0180427
-Schedule shouldRun respects interval 1 0.0206504
-Schedule shouldRun with zero interval always true 1 0.0186426
-Schedule shouldRun after update resets timer 1 0.0199715
-BackupJob constructor sets all fields correctly 1 0.0167219
-BackupJob constructor with disabled schedule 1 0.015949
-BackupJob constructor with custom retention 1 0.0188732
-BackupJob default restore points and hashes are empty 1 0.0182914
-BackupJob enable sets both flags true 1 0.0178379
-BackupJob disable clears both flags 1 0.016037
-BackupJob multiple enable/disable toggles 1 0.016429
-BackupJob addRestorePoint stores points in order 1 0.0191317
-BackupJob addRestorePoint can add many 1 0.0174417
-BackupJob updateFileHash adds or updates 1 0.0193914
-BackupJob clearFileHashes removes all 1 0.0176356
-BackupJob setFileHashes replaces existing 1 0.0189762
-BackupJob setId changes id 1 0.0188961
-BackupJob setName changes name 1 0.0185706
-BackupJob setSource changes source 1 0.0163659
-BackupJob setTarget changes target 1 0.0198074
-Scenario: Complete lifecycle: create, edit, delete a job 1 0.0374628
-Scenario: Scheduled backup respects interval 1 1.18623
-Scenario: Full and incremental backup with restore from latest 1 0.170034
-Scenario: Retention policy by max size 1 0.103789
-Scenario: Retention policy by max days 1 0.0451393
-Scenario: Error handling: backup when source file is locked 1 0.0417505
+StorageService 0 0
+StorageService 0 0
+StorageService 0 0
+StorageService 0 0
+StorageService 0 0
+StorageService 0 0
+ApplicationFacade 0 0
+ApplicationFacade 0 1
+ApplicationFacade 0 1
+ApplicationFacade 0 0
+ApplicationFacade 0 0
+ApplicationFacade 0 0
+ApplicationFacade 0 0
+JobRepository 0 0
+JobRepository 0 0
+JobRepository 0 0
+JobRepository 0 0
+JobRepository 0 0
+JobService 0 0
+JobService 0 1
+JobService 0 1
+JobService 0 0
+JobService 0 0
+JobService 0 0
+RestoreService 0 0
+RestoreService 0 0
+RestoreService 0 0
+RestoreService 0 0
+RestoreService 0 0
+BackupService 0 0
+BackupService 0 0
+BackupService 0 0
+BackupService 0 0
+BackupService 0 0
+RetentionService 0 0
+RetentionService 0 0
+RetentionService 0 0
+RetentionService 0 0
+RetentionService 0 0
+RetentionService 0 0
+RetentionService 0 0
+CompressionService 0 0
+CompressionService 0 0
+CompressionService 0 0
+CompressionService 0 0
+CompressionService 0 0
+DiffService 0 0
+DiffService 0 0
+DiffService 0 0
+DiffService 0 0
+DiffService 0 0
+DiffService 0 0
+HashService 0 0
+HashService 0 0
+HashService 0 0
+HashService 0 0
+HashService 0 0
+HashService 0 0
+FileService 0 0
+FileService 0 0
+FileService 0 0
+FileService 0 0
+FileService 0 0
+JobConverter 0 0
+JobConverter 0 0
+JobConverter 0 0
+JobConverter 0 0
+JobConverter 0 0
+RestorePoint 0 0
+RestorePoint 0 0
+RestorePoint 0 0
+RestorePoint 0 0
+RestorePoint 0 0
+RetentionPolicy 0 1
+RetentionPolicy 0 1
+RetentionPolicy 0 1
+RetentionPolicy 0 1
+RetentionPolicy 0 0
+RetentionPolicy 0 0
+Schedule 0 0
+Schedule 0 0
+Schedule 0 0
+Schedule 0 0
+Schedule 0 0
+Schedule 0 0
+Schedule 0 0
+Schedule 0 0
+Schedule 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+BackupJob 0 0
+Scenario: 0 0
+Scenario: 0 0
+Scenario: 0 0
+Scenario: 0 0
+Scenario: 0 0
+Scenario: 0 0
+StorageService compress does not throw on non-existent path 1 0.613758
+StorageService compress on empty directory 1 0.0231909
+StorageService compress on directory with files 1 0.0487077
+StorageService compress on subdirectory 1 0.0465598
+StorageService compress on empty file 1 0.0282629
+StorageService compress on large file (no crash) 1 0.0528334
+ApplicationFacade create and get jobs 1 0.0747448
+ApplicationFacade updateJob 1 0.0384382
+ApplicationFacade deleteJob 1 0.0402392
+ApplicationFacade runBackup throws on disabled job 1 0.0293467
+ApplicationFacade runBackup on non-existent job throws 1 0.0227113
+ApplicationFacade restore throws on invalid point 1 0.0363152
+ApplicationFacade loadJobs loads existing jobs.json 1 0.0297931
+JobRepository save and load empty 1 0.0253542
+JobRepository save and load one job 1 0.0344449
+JobRepository persists restore points 1 0.0413881
+JobRepository persists file hashes 1 0.0336232
+JobRepository loads only existing restore points 1 0.0375351
+JobService create and get jobs 1 0.0295435
+JobService updateJob 1 0.0376868
+JobService deleteJob 1 0.0280467
+JobService load from file 1 0.0342902
+JobService create multiple jobs 1 0.0305503
+JobService update non-existent job does nothing 1 0.0296547
+RestoreService restores a full backup point 1 0.166877
+RestoreService throws if point not found 1 0.0391512
+RestoreService restores from incremental point 1 0.1594
+RestoreService restores multiple files 1 0.0755736
+RestoreService creates restore directory 1 0.0352526
+BackupService first backup creates FULL point 1 0.025929
+BackupService incremental after file change 1 0.0271386
+BackupService no changes still creates a point (empty) 1 0.0364743
+BackupService multiple files incremental 1 0.04341
+BackupService handles empty source directory 1 0.0223758
+RetentionService keeps at least minRestorePoints (default 3) 1 0.0232353
+RetentionService respects custom minRestorePoints 1 0.0250008
+RetentionService removes points older than maxDays 1 0.0237227
+RetentionService respects maxStorageSize 1 0.0216148
+RetentionService maxStorageSize does not remove below min points 1 0.0330532
+RetentionService combines maxDays and maxStorageSize 1 0.0399267
+RetentionService handles empty points list 1 0.0210428
+CompressionService compress single file 1 0.518875
+CompressionService compress multiple files 1 0.556485
+CompressionService compress subdirectories 1 0.53206
+CompressionService decompress restores original 1 1.04732
+CompressionService decompress with multiple files 1 1.08019
+DiffService with empty hashes marks all as changed 1 0.0221484
+DiffService with matching hashes marks none changed 1 0.0252632
+DiffService detects changed file content 1 0.0267415
+DiffService handles new file not in hashes 1 0.0225009
+DiffService updates hash for changed files 1 0.0379402
+DiffService with multiple files some changed 1 0.0355521
+HashService calculateHash on empty file returns 0 1 0.0212617
+HashService same content yields same hash 1 0.0332833
+HashService different content yields different hash 1 0.028957
+HashService large file (1 MB) does not crash 1 0.042654
+HashService binary file integrity 1 0.0194095
+HashService non-existent file returns empty string 1 0.0209593
+FileService listFiles on empty directory 1 0.0213024
+FileService listFiles on non-existent directory throws 1 0.0193475
+FileService listFiles finds all files recursively 1 0.0240138
+FileService copyFile copies content 1 0.0307358
+FileService copyFile throws if source cannot be opened 1 0.0325577
+JobConverter toDTO -> fromDTO roundtrip 1 0.0228156
+JobConverter fromDTO with disabled job 1 0.0254933
+JobConverter toDTO preserves enable state 1 0.0205487
+JobConverter empty strings in DTO 1 0.01805
+JobConverter DTO with special characters 1 0.0189217
+RestorePoint full constructor 1 0.0192898
+RestorePoint incremental type 1 0.0195395
+RestorePoint default constructor creates empty 1 0.0199498
+RestorePoint timestamps can be compared 1 0.0202073
+RestorePoint copy semantics 1 0.0183847
+RetentionPolicy defaults 1 0.0185164
+RetentionPolicy changeStorageSize 1 0.0195879
+RetentionPolicy changeMaxDays 1 0.0213558
+RetentionPolicy changeMinRestorePoints 1 0.0193695
+RetentionPolicy multiple changes 1 0.019609
+RetentionPolicy independent modifications 1 0.0193913
+Schedule default constructor 1 0.0213095
+Schedule parameterized constructor with zero interval 1 0.0177465
+Schedule parameterized with large interval 1 0.0211177
+Schedule setEnabled toggles state 1 0.0197103
+Schedule updateLastRun stores time 1 0.0188815
+Schedule shouldRun with disabled always false 1 0.0187127
+Schedule shouldRun respects interval 1 0.0198533
+Schedule shouldRun with zero interval always true 1 0.0189345
+Schedule shouldRun after update resets timer 1 0.0186906
+BackupJob constructor sets all fields correctly 1 0.0193432
+BackupJob constructor with disabled schedule 1 0.0193816
+BackupJob constructor with custom retention 1 0.0186004
+BackupJob default restore points and hashes are empty 1 0.0181114
+BackupJob enable sets both flags true 1 0.0204502
+BackupJob disable clears both flags 1 0.0199053
+BackupJob multiple enable/disable toggles 1 0.0201304
+BackupJob addRestorePoint stores points in order 1 0.0197059
+BackupJob addRestorePoint can add many 1 0.0206495
+BackupJob updateFileHash adds or updates 1 0.0179138
+BackupJob clearFileHashes removes all 1 0.018515
+BackupJob setFileHashes replaces existing 1 0.0209962
+BackupJob setId changes id 1 0.0201361
+BackupJob setName changes name 1 0.0202387
+BackupJob setSource changes source 1 0.0211054
+BackupJob setTarget changes target 1 0.0200964
+Scenario: Complete lifecycle: create, edit, delete a job 1 0.379961
+Scenario: Scheduled backup respects interval 1 1.19714
+Scenario: Full and incremental backup with restore from latest 1 0.202386
+Scenario: Retention policy by max size 1 0.128455
+Scenario: Retention policy by max days 1 0.0572776
+Scenario: Error handling: backup when source file is locked 1 0.0405471
 ---

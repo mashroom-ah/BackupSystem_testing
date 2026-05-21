@@ -1,0 +1,10 @@
+build/
+.git/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.log
+*.swp
+.DS_Store
