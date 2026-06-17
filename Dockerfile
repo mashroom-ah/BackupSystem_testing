@@ -1,4 +1,4 @@
-# ========== ЭТАП 1: СБОРКА ==========
+# этап 1
 FROM ubuntu:22.04 AS builder
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -33,29 +33,24 @@ ENV GIT_SSL_NO_VERIFY=1
 WORKDIR /src
 COPY . .
 
-# Исправляем include-директивы в cpp-файлах, чтобы они соответствовали именам .ui файлов
 RUN sed -i 's/#include "ui_JobDialog.h"/#include "ui_jobdialog.h"/' src/ui/jobdialog.cpp && \
     sed -i 's/#include "ui_RestoreDialog.h"/#include "ui_restoredialog.h"/' src/ui/restoredialog.cpp
 
-# Модифицируем CMakeLists.txt тестов для установки исполняемых файлов
 RUN sed -i '/add_executable(unit_tests/,/^)/ s/)/)\ninstall(TARGETS unit_tests RUNTIME DESTINATION bin)/' tests/CMakeLists.txt && \
     sed -i '/add_executable(test_scenarios/,/^)/ s/)/)\ninstall(TARGETS test_scenarios RUNTIME DESTINATION bin)/' tests/CMakeLists.txt
 
-# Конфигурация и сборка
 RUN cmake -B /build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/app/install \
     && cmake --build /build --parallel $(nproc) \
     && cmake --build /build --target install
 
-# Запуск тестов (если какой-то тест упадёт, сборка прервётся)
 RUN cd /build && ctest --output-on-failure
 
-# Копируем бинарные файлы в отдельную папку для финального образа
 RUN mkdir -p /out/bin && \
     cp /build/BackupSystem /out/bin/ && \
     cp /build/tests/unit_tests /out/bin/ && \
     cp /build/tests/test_scenarios /out/bin/
 
-# ========== ЭТАП 2: ВРЕМЯ ВЫПОЛНЕНИЯ ==========
+# этап 2
 FROM ubuntu:22.04
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
